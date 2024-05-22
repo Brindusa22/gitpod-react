@@ -13,6 +13,7 @@ import ConditionalRenderingFunctional from './components/ConditionalRenderingFun
 import NestingComponents from './components/NestingComponents'
 import MethodsAsPropsParent from './components/MethodsAsPropsParent'
 import RenderingLists from './components/RenderingLists'
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <ConditionalRenderingFunctional connected={true} /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      <RenderingLists />
+      {/* <RenderingLists /> */}
+      <LifeCyclesCDM />
     </div>  
   );
 }
