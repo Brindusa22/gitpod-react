@@ -25,6 +25,7 @@ import UseStateWithObjects from './components/UseStateWithObjects'
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectcounterContainer from './components/UseEffectcounterContainer';
 import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
 
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
       {/* <UseStateWithObjects /> */}
       {/* <UseEffectCounter /> */}
       {/* <UseEffectcounterContainer /> */}
-      <HTTPRequests />
+      {/* <HTTPRequests /> */}
+      <HTTPPost />
     </div>  
   );
 }
